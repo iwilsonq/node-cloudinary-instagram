@@ -20,5 +20,5 @@ require('./routes')(app);
 
 var port = app.get('port');
 app.listen(port, function () {
-    console.log('App running at ' + port);
+    console.log('App running at http://localhost:' + port);
 });
